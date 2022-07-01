@@ -11,7 +11,7 @@ const About = () => {
   const placeholderText = [
     { 
       type: "heading1",
-      text: "What Do I Help?"
+      text: "What Do I Help With?"
     }
   ];
 

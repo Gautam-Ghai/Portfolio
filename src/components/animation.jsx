@@ -71,7 +71,7 @@ const AnimatedCharacters = (props) => {
                   <motion.span
                     style={{ display: "inline-block" }}
                     variants={item}
-                    className='font-bold text-5xl md:text-7xl'
+                    className='font-bold text-3xl sm:text-5xl md:text-7xl break-normal'
                   >
                     {element}
                   </motion.span>

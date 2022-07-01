@@ -28,11 +28,13 @@ const TimeLineRow = ({ company, time, role, children, link }) => {
                     <span className='h-5 w-5 rounded-full bg-iconGreen'></span>
                 </span>
                 <div className='ml-10 md:ml-20'>
-                    <h3 className="text-3xl font-semibold text-textGreen mb-5">{role}</h3>
+                    <h3 className="text-2xl sm:text-3xl font-semibold text-textGreen mb-5">{role}</h3>
                     {children}
                 </div>
                 <div className='block md:hidden ml-10 md:ml-20 mb-20'>
-                    <h3 className='text-textGreen font-semibold text-3xl'>{company}</h3>
+                    <a href={link} target='_blank' rel="noreferrer">
+                        <h3 className='text-textGreen font-semibold text-2xl hover:underline'>{company}</h3>
+                    </a>
                     <p className='text-textGreen'>{time}</p>
                 </div>
             </div>

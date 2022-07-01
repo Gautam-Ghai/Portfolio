@@ -30,6 +30,7 @@ const Projects = () => {
                 variants={container}
                 whileInView="visible"
                 viewport={{ once: true }}
+                className='px-4'
             >
                 {
                 placeholderText.map((item, index) => {
