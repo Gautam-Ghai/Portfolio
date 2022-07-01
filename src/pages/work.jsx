@@ -21,9 +21,9 @@ function Work() {
   };
 
   return (
-    <div className='bg-bgYellow' id="work"> 
-      <div className='container mx-auto' >
-        <div className='h-auto px-10 py-20' >
+    <div className='bg-bgYellow diagonal' id="work"> 
+      <div className='container mx-auto content' >
+        <div className='h-auto px-10 pt-20 pb-10' >
           <div className='flex flex-col justify-center items-center'>
             <motion.div
                 initial="hidden"

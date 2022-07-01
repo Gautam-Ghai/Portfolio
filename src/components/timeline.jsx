@@ -47,13 +47,13 @@ const Timeline = () => {
   return (
     <div className='my-20'>
         <TimeLineRow
-            company="AByte Inc."
+            company="aByte Inc."
             link="https://abyte.ca"
             role="Junior Web Developer"
             time="Oct 2021 - June 2022"
             about="sebfuoiywesgbfuybuyiwebfcuy"
         >
-            <p className="md:mb-10 mb-5 text-lg leading-9 tracking-wider font-normal text-textGreen">
+            <p className="md:mb-10 mb-5 text-base md:text-xl leading-7 md:leading-9 tracking-wider font-normal text-textGreen">
                 Developing front-end applications from UI/UX designs<br />
                 Responsible for updating websites with latest technology trends<br />
                 Work effectively in a team to provide quality products to clients<br />
@@ -65,7 +65,7 @@ const Timeline = () => {
             role="IT Support / Web Application Developer"
             time="June 2021 - Sep 2021"
         >
-            <p className="md:mb-10 mb-5 text-lg leading-9 tracking-wider font-normal text-textGreen">
+            <p className="md:mb-10 mb-5 text-base md:text-xl leading-7 md:leading-9 tracking-wider font-normal text-textGreen">
                 Designed and Developed web application using NodeJS and MySql<br />
                 Implemented the web app on Linux server using Nginx and PM2<br />
                 Provided IT support services, troubleshooting, and asset management<br />
@@ -77,7 +77,7 @@ const Timeline = () => {
             role="Wordpress Developer"
             time="November 2020 - December 2020"
         >
-            <p className="md:mb-10 mb-5 text-lg leading-9 tracking-wider font-normal text-textGreen">
+            <p className="md:mb-10 mb-5 text-base md:text-xl leading-7 md:leading-9 tracking-wider font-normal text-textGreen">
                 Redesigned the organization’s website to improve the styling and UI/UX of the site<br />
                 Collaborated with other developers to maintain and update the website as per requirements
             </p>
@@ -88,7 +88,7 @@ const Timeline = () => {
             role="Social Media and Website Assistant "
             time="Oct 2021 - June 2022"
         >
-            <p className="md:mb-10 mb-5 text-lg leading-9 tracking-wider font-normal text-textGreen">
+            <p className="md:mb-10 mb-5 text-base md:text-xl leading-7 md:leading-9 tracking-wider font-normal text-textGreen">
                 Worked with the Department of Arts on various projects<br />
                 Customized website using Terminal Four<br />
                 Updated website blog with Wordpress

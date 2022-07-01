@@ -10,7 +10,7 @@ function Navbar() {
 
 
   return (
-    <div className="sticky top-0 z-10 w-full py-2 bg-bgYellow">
+    <div className="sticky top-0 z-10 w-full py-2 bg-bgYellow z-20">
         <div className='container mx-auto'>
             <div className='px-4 flex justify-between'>
                 <Link 

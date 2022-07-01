@@ -21,3 +21,11 @@ code {
     height: 450px
   }
 }
+
+.diagonal {
+  transform: skewY(-11deg);
+}
+
+.content {
+  transform: skewY(11deg);
+}

@@ -31,19 +31,19 @@ const About = () => {
             iconBackground="bg-iconGreen"
             icon={<HiOutlineDesktopComputer className='text-white text-4xl mt-3.5 ml-3.5'/>}
             heading='Web Development'
-            text='96 Projects'
+            text='11 Projects'
           />
           <Card 
           iconBackground="bg-iconYellow"
             icon={<HiOutlineDeviceMobile className='text-white text-4xl mt-3.5 ml-3.5'/>}
             heading='Mobile Friendly'
-            text='96 Projects'
+            text='9 Projects'
           />
           <Card 
             iconBackground="bg-iconRed"
             icon={<HiOutlineLightBulb className='text-white text-4xl mt-3.5 ml-3.5'/>}
             heading='SEO Optimization'
-            text='96 Projects'
+            text='2 Projects'
           />
         </div>
         <div className='max-w-3xl mb-10'>
@@ -59,7 +59,7 @@ const About = () => {
                 })
               }
           </motion.div>
-          <p className='my-10 text-textGreen text-lg md:text-xl md:leading-10 tracking-wider'>
+          <p className='my-10 text-textGreen text-base md:text-xl leading-7 md:leading-9 tracking-wider'>
             I will help you in  finding a solution.
             I have experience in designing and developing user interfaces, testing, and debugging.
             Proven ability in optimizing web functionality that improves data retrieval and workflow efficiencies.
@@ -69,7 +69,7 @@ const About = () => {
           </p>
           <div className='flex justify-evenly'>
             <div className='flex flex-col'>
-              <NumberCount  from={0} to={11}/>
+              <NumberCount  from={0} to={13}/>
               <p>Projects Completed</p>
             </div>
             <div className='flex flex-col'>
