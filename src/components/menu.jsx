@@ -49,7 +49,7 @@ function Menu() {
                         to="work" 
                         spy={true} 
                         smooth={true} 
-                        duration={500} 
+                        duration={500}
                     >
                         Experience
                     </Link>
@@ -75,7 +75,7 @@ function Menu() {
             <div
                 ref={setTooltipRef}
                 {...getTooltipProps({ className: 'tooltip-container' })}
-                className="bg-iconGreen rounded-2xl p-2 text-white font-medium"
+                className="bg-iconGreen rounded-full py-2 px-3 text-white font-medium"
             >
                 copied
                 <div {...getArrowProps({ className: 'tooltip-arrow' })}/>

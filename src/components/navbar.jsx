@@ -6,11 +6,11 @@ import MyModal from './modal';
 function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
-    const genericHamburgerLine = `h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-300`;
+    const genericHamburgerLine = `h-0.5 w-5 my-1 rounded-full bg-textGreen transition ease transform duration-300`;
 
 
   return (
-    <div className="sticky top-0 z-10 w-full py-2 bg-bgYellow z-20">
+    <div className="sticky top-0 w-full py-2 bg-bgYellow z-20">
         <div className='container mx-auto'>
             <div className='px-4 flex justify-between'>
                 <Link 
@@ -34,20 +34,20 @@ function Navbar() {
                         <div
                             className={`${genericHamburgerLine} ${
                             isOpen
-                                ? "rotate-45 translate-y-1 opacity-50 group-hover:opacity-100"
-                                : "opacity-50 group-hover:opacity-100"
+                                ? "rotate-45 translate-y-1  group-hover:bg-iconGreen"
+                                : "group-hover:bg-iconGreen"
                             }`}
                         />
                         <div
                             className={`${genericHamburgerLine} ${
-                            isOpen ? "opacity-0" : "opacity-50 group-hover:opacity-100"
+                            isOpen ? "opacity-0" : "group-hover:bg-iconGreen"
                             }`}
                         />
                         <div
                             className={`${genericHamburgerLine} ${
                             isOpen
-                                ? "-rotate-45 -translate-y-2 opacity-50 group-hover:opacity-100"
-                                : "opacity-50 group-hover:opacity-100"
+                                ? "-rotate-45 -translate-y-2 group-hover:bg-iconGreen"
+                                : "group-hover:bg-iconGreen"
                             }`}
                         />
                     </button>

@@ -24,7 +24,7 @@ const Projects = () => {
 
   return (
     <div className='container mx-auto' id="projects">
-        <div className='h-auto py-40'>
+        <div className='h-auto pt-20 pb-40 md:py-60'>
             <motion.div
                 initial="hidden"
                 variants={container}
