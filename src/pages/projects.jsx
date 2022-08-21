@@ -45,16 +45,8 @@ const Projects = () => {
                 centeredSlides
             >
                 <SwiperSlide className='max-w-md rounded-2xl relative cursor-grab' >
-                    <img src="/images/weather.png" alt="project-1" className='h-full w-auto object-cover rounded-2xl pointer-events-none project-image'/>
-                    <a href="https://gautamghai-weatherapp.netlify.app" target='_blank' rel="noreferrer" className='absolute top-20 left-8 text-white text-base md:text-lg hover:underline'>https://gautamghai-weatherapp.netlify.app</a>
-                </SwiperSlide>
-                <SwiperSlide className='max-w-md rounded-2xl relative cursor-grab' >
-                    <img src="/images/dashboard.png" alt="project-1" className='h-full w-auto object-cover rounded-2xl pointer-events-none project-image'/>
-                    <a href="https://responsivedashboard.netlify.app" target='_blank' rel="noreferrer" className='absolute top-20 left-8 text-white text-base md:text-lg hover:underline'>https://responsivedashboard.netlify.app</a>
-                </SwiperSlide>
-                <SwiperSlide className='max-w-md rounded-2xl relative cursor-grab' >
-                    <img src="/images/scrwld.png" alt="project-1" className='h-full w-auto object-cover rounded-2xl pointer-events-none project-image'/>
-                    <a href="https://scrwld.com" target='_blank' rel="noreferrer" className='absolute top-20 left-8 text-white text-base md:text-lg hover:underline'>https://scrwld.com</a>
+                    <img src="/images/tidy-url.png" alt="project-1" className='h-full w-auto object-cover rounded-2xl pointer-events-none project-image'/>
+                    <a href="https://tidyurl.xyz" target='_blank' rel="noreferrer" className='absolute top-20 left-8 text-white text-base md:text-lg hover:underline'>https://tidyurl.xyz</a>
                 </SwiperSlide>
                 <SwiperSlide className='max-w-md rounded-2xl relative cursor-grab' >
                     <img src="/images/weather.png" alt="project-1" className='h-full w-auto object-cover rounded-2xl pointer-events-none project-image'/>
